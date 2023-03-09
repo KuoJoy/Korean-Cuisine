@@ -1,0 +1,220 @@
+body {
+  background-color: #161b21;
+}
+header {
+  position: relative;
+  margin-top: -62px;
+  overflow: hidden;
+  font-family: 'Arsenal', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  font-family: 'Arsenal', sans-serif;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+.navbar .navbar-brand {
+  color: #c7966d;
+  font-size: 1.25rem;
+}
+.navbar .navbar-brand:hover {
+  color: #a9774f;
+}
+.navbar .navbar-brand i {
+  font-size: 1rem;
+}
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 3rem;
+  text-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+.banner {
+  position: relative;
+  z-index: -1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: -5px;
+  height: 500px;
+  filter: blur(3px) brightness(50%);
+}
+.banner img {
+  height: 100%;
+  object-fit: cover;
+}
+.search-bar .search-bar-outer {
+  margin: 0 auto;
+  max-width: 680px;
+  background-color: rgba(14, 19, 23, 0.8);
+  border-radius: 8px;
+  padding: 20px 30px;
+  border: 0;
+  margin-top: -60px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+.search-bar .search-bar-inner h4 {
+  color: #c7966d;
+}
+.form-control::placeholder {
+  color: #aaaaaa;
+  font-size: 0.8rem;
+}
+.btn-major {
+  background-color: #c7966d;
+  color: white;
+}
+.form-control:focus {
+  box-shadow: none;
+  border-color: #ced4da;
+}
+.card-columns {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+.card {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+.card-img-box {
+  height: 160px;
+  overflow: hidden;
+}
+.card img {
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.3s;
+  transform-origin: center;
+}
+.card-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.badge-danger {
+  color: #fff;
+  background-color: #c7966d;
+}
+.restaurant-category {
+  color: #666666;
+  font-size: 0.8rem;
+}
+.restaurant-show-title {
+  position: relative;
+  width: 80%;
+  margin: 2rem auto 0;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.restaurant-info {
+  color: #fff;
+}
+.restaurant-info span {
+  color: #c7966d;
+}
+.restaurant-info a i {
+  color: #fff;
+}
+.card-columns .card {
+  border: 1px solid rgba(199, 150, 109, 0.65)
+}
+.card-columns .card:hover img {
+  transform: scale(1.2);
+}
+@media screen and (min-width: 576px) {
+  header {
+    position: relative;
+    margin-top: -62px;
+    overflow: hidden;
+    font-family: 'Arsenal', sans-serif;
+  }
+  .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 4rem;
+    text-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+  }
+  .card-columns {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+  .card-columns .card {
+    display: inline-block;
+    width: 100%;
+  }
+  .card-img-box {
+    height: 160px;
+    overflow: hidden;
+  }
+  .card img {
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s;
+    transform-origin: center;
+  }
+  .font-weight-normal {
+    font-weight: 400!important;
+  }
+  .badge-danger {
+    color: #fff;
+    background-color: #c7966d;
+  }
+  .badge-pill {
+    padding-right: 0.6em;
+    padding-left: 0.6em;
+    border-radius: 10rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    font-family: 'Arsenal', sans-serif;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .navbar .navbar-brand {
+    color: #c7966d;
+    font-size: 1.5rem;
+  }
+  .navbar .navbar-brand i {
+    font-size: 1.25rem;
+  }
+  .card-columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+  .card-img-box {
+    height: 180px;
+    overflow: hidden;
+  }
+  .card img {
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s;
+    transform-origin: center;
+  }
+}
+
