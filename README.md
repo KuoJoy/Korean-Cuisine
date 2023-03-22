@@ -4,7 +4,7 @@
 # Korean Cuisine
 紀錄屬於自己的韓國美食清單，可以瀏覽、搜尋及查看詳細資訊的網站。
 
-![](https://i.imgur.com/SAyFR2m.gif)
+![image](https://github.com/KuoJoy/Korean-Cuisine/blob/48ec19c7578259acb7c48d5deef0eecb65ad975d/public/cuisine%20demo.gif)
 
 ## Features - 功能列表
 * 首頁有所有餐廳圖片、名稱、分類與評分
